@@ -3,10 +3,18 @@
 function fish_greeting
 
 end
+# go path to bin
+export PATH="$PATH:/home/zirar/go/bin"
+
+# cargo path to bin
+export PATH="$PATH:/home/zirar/.cargo/bin"
+
 
 export PATH="$PATH:/home/zirar/.local/bin"
 
+# personal script
 export PATH="$PATH:/home/zirar/Documents/script"
+
 
 export PATH="$PATH:/home/zirar/.local/bin:/home/zirar/.local/share/soar/bin"
 
