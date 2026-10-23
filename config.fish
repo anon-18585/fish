@@ -4,19 +4,19 @@ function fish_greeting
 
 end
 # go path to bin
-export PATH="$PATH:/home/zirar/go/bin"
+export PATH="$PATH:/home/$USER/go/bin"
 
 # cargo path to bin
-export PATH="$PATH:/home/zirar/.cargo/bin"
+export PATH="$PATH:/home/$USER/.cargo/bin"
 
 
-export PATH="$PATH:/home/zirar/.local/bin"
+export PATH="$PATH:/home/$USER/.local/bin"
 
 # personal script
-export PATH="$PATH:/home/zirar/Documents/script"
+export PATH="$PATH:/home/$USER/Documents/script"
 
 
-export PATH="$PATH:/home/zirar/.local/bin:/home/zirar/.local/share/soar/bin"
+export PATH="$PATH:/home/$USER/.local/bin:/home/$USER/.local/share/soar/bin"
 
 ### key-bindings.fish ###
 #     ____      ____
